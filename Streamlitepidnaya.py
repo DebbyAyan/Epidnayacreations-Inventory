@@ -4,6 +4,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 st.title("Epidnayacreation Inventory")
 st.subheader("Bag crafted to Perfection")
+st.set_page_config(layout="centered")
 
 if "inventory" not in st.session_state:
     st.session_state.inventory = {}
